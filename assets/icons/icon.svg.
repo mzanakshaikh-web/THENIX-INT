@@ -1,0 +1,28 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="90" fill="#080808"/>
+
+  <g fill="#fff">
+    <path d="M145 105 H367 L340 130 H283 V275
+             L256 301 L229 275 V130 H172 Z"/>
+    <path d="M185 151 H225 V214 L185 176 Z"/>
+    <path d="M287 151 H327 L287 190 Z"/>
+  </g>
+
+  <text x="256" y="365"
+        text-anchor="middle"
+        font-family="Arial,sans-serif"
+        font-size="67"
+        font-weight="bold"
+        letter-spacing="3"
+        fill="#fff">THENIX</text>
+
+  <text x="256" y="415"
+        text-anchor="middle"
+        font-family="Arial,sans-serif"
+        font-size="35"
+        font-weight="bold"
+        letter-spacing="13"
+        fill="#999">INT.</text>
+</svg>
