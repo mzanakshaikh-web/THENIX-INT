@@ -5,171 +5,115 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="theme-color" content="#080D0A">
-  <meta name="description" content="THENIX INT. - Calisthenics Coaching">
+  <title>THENIX INT. | Calisthenics Coaching</title>
 
-  <title>THENIX INT.</title>
+  <meta name="description" content="THENIX INT. - Your calisthenics coaching platform.">
+  <meta name="theme-color" content="#080808">
 
+  <link rel="icon" type="image/svg+xml" href="assets/icons/icon.svg">
   <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" href="assets/icons/icon.svg">
 
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- OPENING SCREEN -->
+  <!-- INTRO SCREEN -->
   <div id="intro-screen">
     <div class="intro-content">
-      <h1 class="intro-logo">
-        THENIX <span>INT.</span>
-      </h1>
-
-      <p class="developer-credit">
-        Developed by Mzanak Clan
-      </p>
+      <h1 class="intro-logo">THENIX <span>INT.</span></h1>
+      <p class="developer-credit">Developed by Mzanak Clan</p>
     </div>
   </div>
 
-  <div id="app">
-
-    <!-- NAVIGATION -->
-    <header class="navbar">
-      <a href="#" class="brand">
+  <!-- NAVIGATION -->
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">
         THENIX <span>INT.</span>
       </a>
 
-      <button id="menu-toggle" class="menu-toggle">
+      <button id="menu-toggle" aria-label="Toggle navigation">
         ☰
       </button>
 
-      <nav id="main-nav">
+      <div id="main-nav">
         <a href="#home">Home</a>
         <a href="#programs">Programs</a>
         <a href="#community">Community</a>
-        <button id="login-btn">Sign in</button>
-      </nav>
-    </header>
+        <button id="login-btn">Login</button>
+      </div>
+    </nav>
+  </header>
 
-    <main>
+  <!-- HOME -->
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO THENIX INT.</p>
 
-      <!-- HERO SECTION -->
-      <section class="hero" id="home">
-
-        <div class="hero-content">
-
-          <p class="eyebrow">
-            YOUR FITNESS. YOUR EVOLUTION.
-          </p>
-
-          <h1>
-            BUILD YOUR<br>
-            <span>STRENGTH.</span>
-          </h1>
-
-          <p class="hero-description">
-            Transform your body and master your movement
-            through structured calisthenics coaching.
-          </p>
-
-          <div class="hero-actions">
-
-            <button id="get-started-btn" class="primary-btn">
-              GET STARTED →
-            </button>
-
-            <a href="#programs" class="secondary-btn">
-              EXPLORE PROGRAMS
-            </a>
-
-          </div>
-        </div>
-
-        <div class="hero-visual">
-          <div class="hero-image-placeholder">
-            <span>THENIX INT.</span>
-            <p>DISCIPLINE. STRENGTH. CONTROL.</p>
-          </div>
-        </div>
-
-      </section>
-
-      <!-- PROGRAMS -->
-      <section class="features" id="programs">
-
-        <div class="section-heading">
-          <p class="eyebrow">THE TRAINING EXPERIENCE</p>
-          <h2>LEVEL UP YOUR <span>GAME.</span></h2>
-        </div>
-
-        <div class="feature-grid">
-
-          <article class="feature-card">
-            <div class="feature-icon">01</div>
-            <h3>WORKOUT PLANS</h3>
-            <p>Structured training programmes designed around your goals.</p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-icon">02</div>
-            <h3>VIDEO TUTORIALS</h3>
-            <p>Learn exercises and improve your technique.</p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-icon">03</div>
-            <h3>LIVE COACHING</h3>
-            <p>Connect with your coach through live sessions.</p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-icon">04</div>
-            <h3>COMMUNITY</h3>
-            <p>Connect with other athletes and grow together.</p>
-          </article>
-
-        </div>
-      </section>
-
-      <!-- COMMUNITY -->
-      <section class="community" id="community">
-
-        <p class="eyebrow">JOIN THE MOVEMENT</p>
-
-        <h2>
-          YOUR JOURNEY.<br>
-          <span>YOUR POTENTIAL.</span>
-        </h2>
+        <h1>
+          BUILD YOUR<br>
+          <span>STRENGTH.</span>
+        </h1>
 
         <p>
-          Train with purpose. Progress with discipline.
-          Become stronger every day.
+          Your journey to mastering calisthenics starts here.
+          Train smarter, build discipline and unlock your potential.
         </p>
 
-        <button id="community-btn" class="primary-btn">
-          JOIN THENIX
-        </button>
+        <button id="get-started-btn">GET STARTED</button>
+      </div>
+    </section>
 
-      </section>
+    <!-- PROGRAMS -->
+    <section id="programs" class="programs">
+      <h2>OUR PROGRAMS</h2>
+      <p>Train with purpose. Progress with discipline.</p>
 
-    </main>
+      <div class="program-grid">
+        <article class="program-card">
+          <h3>STRENGTH</h3>
+          <p>Build foundational bodyweight strength.</p>
+        </article>
 
-    <!-- FOOTER -->
-    <footer class="footer">
+        <article class="program-card">
+          <h3>SKILL DEVELOPMENT</h3>
+          <p>Work towards mastering advanced movements.</p>
+        </article>
 
-      <a href="#" class="brand">
-        THENIX <span>INT.</span>
-      </a>
+        <article class="program-card">
+          <h3>PERSONAL COACHING</h3>
+          <p>Get guidance tailored to your training goals.</p>
+        </article>
+      </div>
+    </section>
 
-      <p>© 2026 THENIX INT. All rights reserved.</p>
-      <p>BUILT FOR PROGRESS.</p>
+    <!-- COMMUNITY -->
+    <section id="community" class="community">
+      <h2>JOIN THE COMMUNITY</h2>
+      <p>
+        Connect with other athletes, share your progress
+        and keep pushing your limits.
+      </p>
 
-    </footer>
+      <button id="community-btn">JOIN COMMUNITY</button>
+    </section>
 
-    <div id="auth-container"></div>
+    <!-- AUTHENTICATION PLACEHOLDER -->
+    <section id="auth-container"></section>
 
-  </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <h3>THENIX INT.</h3>
+    <p>Developed by Mzanak Clan</p>
+    <p>© 2026 THENIX INT. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
 
 </body>
-            </html>
-  
+</html>
