@@ -1,119 +1,211 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>THENIX INT. | Calisthenics Coaching</title>
-
-  <meta name="description" content="THENIX INT. - Your calisthenics coaching platform.">
-  <meta name="theme-color" content="#080808">
-
-  <link rel="icon" type="image/svg+xml" href="assets/icons/icon.svg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="THENIX INT. — personalised online calisthenics and bodyweight coaching. Train with a plan. Master the skills. Build your strength.">
+  <title>THENIX INT. — International Calisthenics Coaching</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
   <link rel="manifest" href="manifest.json">
-  <link rel="apple-touch-icon" href="assets/icons/icon.svg">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-  <!-- INTRO SCREEN -->
-  <div id="intro-screen">
-    <div class="intro-content">
-      <h1 class="intro-logo">THENIX <span>INT.</span></h1>
-      <p class="developer-credit">Developed by Mzanak Clan</p>
-    </div>
-  </div>
-
-  <!-- NAVIGATION -->
-  <header>
-    <nav class="navbar">
-      <a href="#home" class="logo">
-        THENIX <span>INT.</span>
-      </a>
-
-      <button id="menu-toggle" aria-label="Toggle navigation">
-        ☰
-      </button>
-
-      <div id="main-nav">
-        <a href="#home">Home</a>
-        <a href="#programs">Programs</a>
-        <a href="#community">Community</a>
-        <button id="login-btn">Login</button>
-      </div>
+  <div class="announcement"><span class="pulse"></span> ONLINE COACHING AVAILABLE WORLDWIDE</div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="THENIX INT home">THENIX<span> INT.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#coaching">Coaching</a>
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#process">How it works</a>
+      <a href="#policies">Policies</a>
+      <a class="nav-cta" href="#contact">Get started <span>↗</span></a>
     </nav>
   </header>
 
-  <!-- HOME -->
   <main>
-    <section id="home" class="hero">
-      <div class="hero-content">
+    <section class="hero section-wrap">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">YOUR TRAINING. YOUR PROGRESS. YOUR GOAL.</p>
+        <h1>BUILD<br><span>YOUR</span> STRENGTH.</h1>
+        <p class="hero-lead">Personalised calisthenics coaching built around your ability, your goals and your progression.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#coaching">Explore coaching <span>↘</span></a>
+          <a class="text-link" href="#process">How it works <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span>01 / TRAIN WITH PURPOSE</span><span>COACHING WORLDWIDE</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Abstract athletic graphic">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-mark">N<span>X</span></div>
+        <div class="hero-art-label">STRENGTH<br>THROUGH<br>CONTROL</div>
+        <div class="hero-art-index">THENIX / 001</div>
+      </div>
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="intro-band">
+      <div class="section-wrap intro-grid">
         <p class="eyebrow">WELCOME TO THENIX INT.</p>
-
-        <h1>
-          BUILD YOUR<br>
-          <span>STRENGTH.</span>
-        </h1>
-
-        <p>
-          Your journey to mastering calisthenics starts here.
-          Train smarter, build discipline and unlock your potential.
-        </p>
-
-        <button id="get-started-btn">GET STARTED</button>
+        <div><h2>Not random workouts.<br><span>A progression built around you.</span></h2>
+          <p>Whether you're a beginner, intermediate or advanced athlete, your training is structured around your current ability, weaknesses and specific goals.</p></div>
       </div>
     </section>
 
-    <!-- PROGRAMS -->
-    <section id="programs" class="programs">
-      <h2>OUR PROGRAMS</h2>
-      <p>Train with purpose. Progress with discipline.</p>
-
-      <div class="program-grid">
-        <article class="program-card">
-          <h3>STRENGTH</h3>
-          <p>Build foundational bodyweight strength.</p>
+    <section class="section-wrap section-block" id="coaching">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 — COACHING PACKAGES</p><h2>Choose your<br><span>training path.</span></h2></div>
+        <p class="section-note">Monthly coaching subscriptions cover four weeks of structured guidance.</p>
+      </div>
+      <div class="package-grid">
+        <article class="package-card featured reveal">
+          <div class="card-topline"><span>01 / MOST COMPLETE</span><span class="mini-dot"></span></div>
+          <h3>Personal<br>Calisthenics Coaching</h3>
+          <p class="package-desc">Your training. Your progressions. Your goal.</p>
+          <div class="price"><strong>K850</strong><span>/ month · Zambia</span></div>
+          <p class="international-price">$65 USD <i>·</i> AED 239 <span>International</span></p>
+          <ul>
+            <li>Fully personalised training programme</li><li>3 coached training sessions per week</li>
+            <li>Exercise demonstrations and instructions</li><li>Individual form and technique corrections</li>
+            <li>Progressions selected for your level</li><li>Training volume and intensity adjustments</li>
+            <li>Regular follow-ups and progress tracking</li><li>Direct coach communication</li>
+            <li>Video calls when necessary</li><li>Clear short- and long-term goals</li>
+          </ul>
+          <a class="button button-light package-choose" data-package="Personal Calisthenics Coaching" href="#contact">Choose this package <span>↗</span></a>
         </article>
-
-        <article class="program-card">
-          <h3>SKILL DEVELOPMENT</h3>
-          <p>Work towards mastering advanced movements.</p>
+        <article class="package-card reveal">
+          <div class="card-topline"><span>02 / TECHNIQUE</span><span class="mini-dot"></span></div>
+          <h3>Form<br>Coaching</h3>
+          <p class="package-desc">Train independently. Get expert feedback.</p>
+          <div class="price"><strong>K550</strong><span>/ month · Zambia</span></div>
+          <p class="international-price">$35 USD <i>·</i> AED 129 <span>International</span></p>
+          <ul>
+            <li>3 video check-ins per week</li><li>Form and technique assessments</li>
+            <li>Detailed corrections and feedback</li><li>Exercise demonstrations when needed</li>
+            <li>Progression recommendations</li><li>Exercise selection guidance</li>
+            <li>Training feedback and adjustments</li><li>Monthly progress monitoring</li>
+            <li>Direct communication with your coach</li>
+          </ul>
+          <a class="button button-outline package-choose" data-package="Form Coaching" href="#contact">Choose this package <span>↗</span></a>
         </article>
-
-        <article class="program-card">
-          <h3>PERSONAL COACHING</h3>
-          <p>Get guidance tailored to your training goals.</p>
+        <article class="package-card reveal">
+          <div class="card-topline"><span>03 / HOME TRAINING</span><span class="mini-dot"></span></div>
+          <h3>Bodyweight<br>Physique Coaching</h3>
+          <p class="package-desc">Build your physique. No gym. No weights.</p>
+          <div class="price"><strong>K600</strong><span>/ month · Zambia</span></div>
+          <p class="international-price">$45 USD <i>·</i> AED 165 <span>International</span></p>
+          <ul>
+            <li>Personalised home workout programme</li><li>3 training days per week</li>
+            <li>Bodyweight-only exercise selection</li><li>Sets, reps and rest-time guidance</li>
+            <li>Exercise demonstrations</li><li>Form and technique corrections</li>
+            <li>Exercise substitutions for your ability</li><li>Progression recommendations</li>
+            <li>Monthly progress assessment</li><li>Direct coach communication</li>
+          </ul>
+          <a class="button button-outline package-choose" data-package="Bodyweight Physique Coaching" href="#contact">Choose this package <span>↗</span></a>
         </article>
+      </div>
+      <p class="pricing-footnote">Zambian and international prices are separate pricing structures, not automatic currency conversions.</p>
+    </section>
+
+    <section class="services-section" id="services">
+      <div class="section-wrap section-block">
+        <div class="section-heading">
+          <div><p class="eyebrow">02 — INDIVIDUAL SERVICES</p><h2>Focused help.<br><span>On your terms.</span></h2></div>
+          <p class="section-note">For athletes who need specific training assistance without a monthly coaching subscription.</p>
+        </div>
+        <div class="service-table">
+          <div class="service-row service-head"><span>Service</span><span>ZMW</span><span>USD</span><span>AED</span></div>
+          <div class="service-row"><span>Individual form assessment</span><b>K150</b><span>$8</span><span>29</span></div>
+          <div class="service-row"><span>One-day training guidance</span><b>K200</b><span>$12</span><span>44</span></div>
+          <div class="service-row"><span>Custom 4-week workout plan</span><b>K400</b><span>$25</span><span>92</span></div>
+          <div class="service-row"><span>30-minute live coaching</span><b>K350</b><span>$20</span><span>73</span></div>
+          <div class="service-row"><span>60-minute live coaching</span><b>K600</b><span>$35</span><span>129</span></div>
+          <div class="service-row"><span>Skill-specific training programme</span><b>K400–600</b><span>$25–35</span><span>92–129</span></div>
+        </div>
+        <p class="pricing-footnote">Individual services are paid separately and do not include ongoing monthly supervision unless agreed upon.</p>
       </div>
     </section>
 
-    <!-- COMMUNITY -->
-    <section id="community" class="community">
-      <h2>JOIN THE COMMUNITY</h2>
-      <p>
-        Connect with other athletes, share your progress
-        and keep pushing your limits.
-      </p>
-
-      <button id="community-btn">JOIN COMMUNITY</button>
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading">
+        <div><p class="eyebrow">03 — SKILL DEVELOPMENT</p><h2>Master the<br><span>movement.</span></h2></div>
+        <p class="section-note">Skill-specific programmes are available without subscribing to full personal coaching. Pricing: K400–600 / $25–35 USD / AED 92–129.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><span>01</span><h3>Static strength</h3><p>Planche · Front Lever · One-Arm Front Lever · Back Lever · Human Flag · Victorian Cross · Front Lever Touch</p></article>
+        <article class="skill-card"><span>02</span><h3>Dynamic strength</h3><p>Muscle-Up · Planche Push-Up · Handstand Push-Up · Front Lever Pull-Ups · Back Lever Pull-Ups · Advanced pushing and pulling movements</p></article>
+        <article class="skill-card"><span>03</span><h3>Balance & core</h3><p>Handstand · Dragon Flag · Advanced core strength and body control</p></article>
+        <article class="skill-card"><span>04</span><h3>Advanced variations</h3><p>Pelican Curl · Advanced lever variations and transitions</p></article>
+        <article class="skill-card"><span>05</span><h3>Skill programmes</h3><p>Handstand · Front Lever · One-Arm Front Lever · Planche · Muscle-Up · Human Flag · Back Lever · Dragon Flag · Handstand Push-Up</p></article>
+        <article class="skill-card"><span>06</span><h3>General fitness</h3><p>Muscle development · Strength development · Bodyweight conditioning · Overall physical development</p></article>
+      </div>
     </section>
 
-    <!-- AUTHENTICATION PLACEHOLDER -->
-    <section id="auth-container"></section>
+    <section class="process-section" id="process">
+      <div class="section-wrap section-block">
+        <div class="section-heading">
+          <div><p class="eyebrow">04 — THE PROCESS</p><h2>Your journey<br><span>starts here.</span></h2></div>
+          <p class="section-note">A clear process from your first message to your first coached session.</p>
+        </div>
+        <div class="steps">
+          <div class="step"><span>01</span><p>Choose the coaching package that suits your goals.</p></div>
+          <div class="step"><span>02</span><p>Contact your coach and explain what you want to achieve.</p></div>
+          <div class="step"><span>03</span><p>Complete an initial assessment of your current abilities.</p></div>
+          <div class="step"><span>04</span><p>Discuss your training history, available equipment and schedule.</p></div>
+          <div class="step"><span>05</span><p>Confirm your package and make payment.</p></div>
+          <div class="step"><span>06</span><p>Receive your training instructions and begin your journey.</p></div>
+        </div>
+      </div>
+    </section>
 
+    <section class="section-wrap section-block" id="policies">
+      <div class="section-heading">
+        <div><p class="eyebrow">05 — IMPORTANT INFORMATION</p><h2>Clear terms.<br><span>Better coaching.</span></h2></div>
+        <p class="section-note">Please review the coaching and payment policies before registering.</p>
+      </div>
+      <div class="policy-grid">
+        <article class="policy-card"><span>01</span><h3>Payment</h3><ul><li>Monthly packages are paid upfront.</li><li>Monthly subscriptions cover four weeks of coaching.</li><li>Individual services require payment before delivery.</li><li>Payments can be made in USD, AED or ZMW through mutually agreed payment methods.</li><li>Local and international prices are separate pricing structures.</li></ul></article>
+        <article class="policy-card"><span>02</span><h3>Communication</h3><ul><li>WhatsApp or another mutually agreed communication platform.</li><li>Normal feedback is provided within 24–48 hours.</li><li>Coaching days and submission schedules are agreed upon before training begins.</li></ul></article>
+        <article class="policy-card"><span>03</span><h3>Training requirements</h3><ul><li>Submit clear exercise videos when requested.</li><li>Follow assigned training schedules.</li><li>Disclose relevant injuries or physical limitations before training.</li><li>Stop and report exercises that cause pain.</li></ul></article>
+        <article class="policy-card"><span>04</span><h3>Important notes</h3><ul><li>Programmes are adapted to individual ability and available equipment.</li><li>Nutrition and personalised dietary planning are not included.</li><li>Results depend on consistency, effort, recovery and other personal factors.</li><li>Coaching is educational and fitness-oriented, not a substitute for medical or physiotherapy care.</li></ul></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-grid">
+        <div><p class="eyebrow">06 — TAKE THE FIRST STEP</p><h2>Ready to<br><span>get stronger?</span></h2><p class="contact-copy">Tell us what you're working towards. Start your coaching enquiry directly through WhatsApp.</p>
+          <a class="contact-number" href="https://wa.me/26072214463" target="_blank" rel="noopener">+260 722 144 63 <span>↗</span></a>
+          <p class="contact-small">International enquiries welcome.</p>
+        </div>
+        <form class="enquiry-form" id="enquiryForm">
+          <label for="clientName">Your name</label><input id="clientName" name="name" autocomplete="name" placeholder="Enter your name" required>
+          <label for="clientCountry">Country</label><input id="clientCountry" name="country" autocomplete="country-name" placeholder="Where are you based?" required>
+          <label for="clientPackage">What are you interested in?</label>
+          <select id="clientPackage" name="package" required>
+            <option value="">Select a service</option>
+            <option>Personal Calisthenics Coaching</option><option>Form Coaching</option><option>Bodyweight Physique Coaching</option>
+            <option>Individual service</option><option>Skill-specific programme</option><option>General enquiry</option>
+          </select>
+          <label for="clientGoal">Your goal</label><textarea id="clientGoal" name="goal" rows="4" placeholder="What would you like to achieve?"></textarea>
+          <button class="button button-light form-submit" type="submit">Send enquiry on WhatsApp <span>↗</span></button>
+          <p class="form-note">Your message will open in WhatsApp for you to review and send. This website does not store your information.</p>
+        </form>
+      </div>
+    </section>
   </main>
 
-  <!-- FOOTER -->
-  <footer>
-    <h3>THENIX INT.</h3>
-    <p>Developed by Mzanak Clan</p>
-    <p>© 2026 THENIX INT. All rights reserved.</p>
+  <footer class="site-footer">
+    <div class="section-wrap footer-top"><a class="brand" href="#top">THENIX<span> INT.</span></a><p>BUILD STRENGTH. DEVELOP CONTROL.<br>PURSUE MASTERY.</p><a href="#top" class="back-top">BACK TO TOP ↑</a></div>
+    <div class="section-wrap footer-bottom"><span>© <span id="year"></span> THENIX INT. All rights reserved.</span><span>YOUR GOALS. YOUR JOURNEY. YOUR PROGRESS.</span></div>
   </footer>
-
+  <a class="floating-whatsapp" href="https://wa.me/26072214463" target="_blank" rel="noopener" aria-label="Chat with THENIX INT on WhatsApp">WA</a>
   <script src="app.js"></script>
-
 </body>
 </html>
