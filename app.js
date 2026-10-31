@@ -1,3 +1,4 @@
+
 const menuToggle = document.getElementById("menuToggle");
 const siteNav = document.getElementById("siteNav");
 
@@ -41,7 +42,7 @@ document.getElementById("enquiryForm").addEventListener("submit", event => {
     `My goal: ${goal || "I'd like to discuss my goals."}`
   ].join("\n");
 
-  window.open(`https://wa.me/26072214463?text=${encodeURIComponent(message)}`, "_blank", "noopener");
+  window.open(`https://wa.me/260972214463?text=${encodeURIComponent(message)}`, "_blank", "noopener");
 });
 
 document.getElementById("year").textContent = new Date().getFullYear();
@@ -61,7 +62,6 @@ if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-mot
 } else {
   revealItems.forEach(item => item.classList.add("visible"));
 }
-
 
 if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
   window.addEventListener("load", () => {
